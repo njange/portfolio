@@ -9,7 +9,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="max-w-[1200px] h-24 mx-auto flex justify-between items-center text-lg px-4 md:px-0">
+    <div className="text-gray-200 max-w-[1200px] h-24 mx-auto flex justify-between items-center text-lg px-4 md:px-0">
       <h1 className="text-3xl font-bold m-4">J. DOE</h1>
 
       <ul className="hidden md:flex">
