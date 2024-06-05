@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link to="/about">Experience</Link>
         </li>
         <li className="p-5">
-          <Link to="/about" className="px-4 py-2 rounded-xl bg-green-300">
+          <Link to="/about" className="px-4 py-2 rounded-xl bg-primary-color">
             Contact
           </Link>
         </li>
