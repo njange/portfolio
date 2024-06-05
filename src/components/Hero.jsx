@@ -1,5 +1,5 @@
 import React from 'react'
-import profilepic from '../images/profilepic.jpg'
+import profilepic from '../assets/profilepic.png'
 import { AiFillLinkedin, AiFillGithub, AiFillTwitterSquare } from 'react-icons/ai'
 import { TypeAnimation } from 'react-type-animation'
 import {
