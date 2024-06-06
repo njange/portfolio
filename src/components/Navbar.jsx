@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div className="text-gray-200 max-w-[1200px] h-24 mx-auto flex justify-between items-center text-lg px-4 md:px-0">
-      <h1 className="text-3xl font-bold m-4">J. DOE</h1>
+      <h1 className="text-3xl font-bold m-4">JAMES</h1>
 
       <ul className="hidden md:flex">
         <li className="p-5">
@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
         <div className={nav ? 'z-40 text-gray-300 fixed left-0 top-0 h-full w-[60%] border-r border-r-gray-900 bg-[#171717] ease-in-out duration-500'
             : 'fixed left-[-100%]'}>
-                <h1 className="text-3xl font-bold m-4">J. DOE</h1>
+                <h1 className="text-3xl font-bold m-4">JAMES</h1>
         <ul className="p-8 text-2xl">
         <li className="p-5">
           <Link to="/about">About</Link>
