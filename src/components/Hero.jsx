@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <div className='max-w-[1200px] mx-auto grid md:grid-cols-8 gap-6 p-10 md:p-0' id="home">
 
-        <div className="md:cols-span-5 p-8 glass grid grid-cols-2">
+        <div className="md:cols-span-5 p-8 glass grid grid-cols-2 ">
 
             <img className="w-[800px]" src={profilepic} alt='profilepic' />
 
@@ -37,7 +37,7 @@ const Hero = () => {
                     />
 
                 </p>
-                <p className='text-xl md:text-3xl font-semibold text-gray-400'>With a 5+ years experience</p>
+                <p className='text-xl md:text-3xl font-semibold text-gray-400'>With a 2+ years experience</p>
                 <button className='mt-4 px-4 py-2 text-lg font-bold text-white bg-primary-color rounded-xl'>Download CV</button>
             </div>
         </div>
@@ -52,8 +52,14 @@ const Hero = () => {
                     <DiNodejsSmall size={50} className='text-green-500' />
                     <DiSass size={50} className='text-pink-500' />
                     <DiBootstrap size={50} className='text-purple-500' />
-                    
+
                 </div>
+            </div>
+            <div className='text-6xl flex justify-center items-center glass text-gray-600'>
+                <AiFillGithub/>
+                <AiFillLinkedin/>
+                <AiFillTwitterSquare/>
+
             </div>
 
         </div>
