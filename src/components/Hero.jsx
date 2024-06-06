@@ -32,6 +32,7 @@ const Hero = () => {
                             "Fullstack Developer",
                             1000,
                         ]}
+                        wrapper="span"
                     />
                     </span>
                 </p>
