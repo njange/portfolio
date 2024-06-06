@@ -21,8 +21,7 @@ const Hero = () => {
             <img className="" src={profilepic} alt='profilepic' />
 
             <div className="my-auto ml-8 flex-col text-gray-200">
-                <p className="text-2xl md:text-4xl font-bold">
-                    Hello, I'm <span className="text-primary-color">James<br/>
+                <p className="text-2xl md:text-4xl font-bold"> Hello, I'm James<br/>
                     <TypeAnimation
                         sequence={[
                             "Frontend Developer",
@@ -34,7 +33,7 @@ const Hero = () => {
                         ]}
                         wrapper="span"
                     />
-                    </span>
+                    
                 </p>
             </div>
         </div>
