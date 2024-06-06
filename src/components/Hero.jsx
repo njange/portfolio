@@ -6,7 +6,7 @@ import {
     DiJavascript1,
     DiReact,
     DiNodejsSmall,
-    DiHtml,
+    DiHtml5,
     DiCss3,
     DiSass,
     DiBootstrap
@@ -42,4 +42,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
