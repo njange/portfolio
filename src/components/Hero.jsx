@@ -55,7 +55,7 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className='text-6xl flex justify-center items-center glass text-gray-600'>
+            <div className='text-6xl gap-4 flex justify-center items-center glass text-gray-600'>
                 <AiFillGithub/>
                 <AiFillLinkedin/>
                 <AiFillTwitterSquare/>
