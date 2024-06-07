@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div
-      className="px-6 max-w-[1200px] mx-auto grid md:grid-cols-2 place-items-center"
+      className="px-6 max-w-[1000px] mx-auto grid md:grid-cols-2 place-items-center"
       id="contact"
     >
       <div>
@@ -39,7 +39,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <form action='endpoint' method='POST' className='max-w-6xl p5 md:p-12' id='form'>
+      <form action='https://getform.io/f/panvdzja' method='POST' className='max-w-6xl p5 md:p-12' id='form'>
         <input
             type='text'
             id='name'
@@ -60,9 +60,11 @@ const Contact = () => {
             cols='30'
             rows='4'
             placeholder='Your message ...'
-            name='textarea'
             className='mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4'
         />
+        <button type='submit' className='w-full py-3 rounded-md text-gray-100 font-semibold text-xl bg-primary-color'>
+            Send Message
+        </button>
 
       </form>
     </div>
