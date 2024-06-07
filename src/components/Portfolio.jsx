@@ -50,12 +50,16 @@ const Portfolio = () => {
             <ul className='ml-6 flex flex-row md:flex-col gap-6 flex-wrap justify-center md:gap-1 space-y-2 md:space-y-4 text-2xl'>
 
                 {projects.map((project, index) => (
-                    <li key={index} onClick={() => setCurrentProject(index)} className=''>{project.title}</li>
+                    <li key={index} onClick={() => setCurrentProject(index)} 
+                    className={`cursor-pointer text-gray-300 ${currentProject ===index ? 'active-project' : ''}`}>
+                        {project.title}
+                        </li>
                 ))}
 
             </ul>
 
         </div>
+        
     </div>
   )
 }
