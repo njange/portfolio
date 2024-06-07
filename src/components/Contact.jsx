@@ -39,6 +39,30 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <form action='endpoint' method='POST' className='max-w-6xl p5 md:p-12' id='form'>
+        <input
+            type='text'
+            id='name'
+            placeholder='Your name ...'
+            name='name'
+            className='mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4'
+        />
+        <input
+            type='text'
+            id='name'
+            placeholder='Your name ...'
+            name='name'
+            className='mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4'
+        />
+        <input
+            type='text'
+            id='name'
+            placeholder='Your name ...'
+            name='name'
+            className='mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4'
+        />
+
+      </form>
     </div>
   );
 };
