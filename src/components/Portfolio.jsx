@@ -59,6 +59,23 @@ const Portfolio = () => {
             </ul>
 
         </div>
+        <div className='z-10 glass w-full col-span-5'>
+            <div className='w-full h-80'>
+                <img src={projects[currentProject].img} alt={projects[currentProject].title}
+                    className='w-full h-full object-cover rounded-lg mb-4' />
+            </div>
+            <div className='p-6'>
+                <p className='text-gray-200 my-4'>{projects[currentProject].description}</p>
+                <div className='flex space-x-4'>
+                    <a href={projects[currentProject].link.site}
+                        className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate transition duration-300'></a>
+                    <a href={projects[currentProject].link.github}
+                        className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300'></a>
+                </div>
+
+            </div>
+
+        </div>
         
     </div>
   )
