@@ -48,17 +48,19 @@ const Contact = () => {
             className='mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4'
         />
         <input
-            type='text'
-            id='name'
-            placeholder='Your name ...'
-            name='name'
+            type='email'
+            id='email'
+            placeholder='Your email ...'
+            name='email'
             className='mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4'
         />
         <input
-            type='text'
-            id='name'
-            placeholder='Your name ...'
-            name='name'
+            type='textarea'
+            id='textarea'
+            cols='30'
+            rows='4'
+            placeholder='Your message ...'
+            name='textarea'
             className='mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4'
         />
 
