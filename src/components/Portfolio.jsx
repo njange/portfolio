@@ -54,7 +54,14 @@ const Portfolio = () => {
         <div className='relative z-10 col-span-3 grid place-items-center grid-cols-1'>
             <p className='text-gray-200 font-bold text-4xl skew-y-6'>Select Project</p>
             <img src={arrow} className='absolute w-[50px] top-10 right-12'></img>
-            
+
+            <ul className='ml-6 flex flex-row md:flex-col gap-6 flex-wrap justify-center md:gap-1 space-y-2 md:space-y-4 text-2xl'>
+
+                {projects.map((project, index) => (
+                    <li key={index} onClick={() => setCurrentProject(index)} className=''>{project.title}</li>
+                ))}
+
+            </ul>
 
         </div>
     </div>
