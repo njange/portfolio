@@ -1,13 +1,17 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaGithubSquare, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 
 const Footer = () => {
   return (
     <div className='max-w-[1200px] mx-auto flex justify-between p-6 md:p-20 text-sm md:text-lg mt-12'>
       <div className='space-y-4'>
-        <h3></h3>
-
+        <h3 className='text-2xl text-gray-200 font-semibold'>James Njange</h3>
+        <div className='flex flex-row gap-6 text-gray-400 text-4xl'>
+          <FaGithubSquare />
+          <FaLinkedin />
+          <FaTwitter />
+        </div>
       </div>
       <p className='text-gray-400'>@2024 James Njange</p>
     </div>
