@@ -23,6 +23,18 @@ const About = () => {
           I am a full stack developer with experience in the following technologies:
         </p>
         <div className='md:flex flex-wrap gap-4 text-4xl justify-center'>
+          <DiHtml5 className='text-orange-600' />
+          <DiCss3 className='text-blue-600' />
+          <DiJavascript1 className='text-yellow-400' />
+          <DiReact className='text-blue-400' />
+          <DiNodejsSmall className='text-green-400' />
+          <DiMongodb className='text-green-500' />
+          <DiSass className='text-pink-400' />
+          <DiBootstrap className='text-purple-600' />
+          <DiGit className='text-red-400' />
+          <DiNpm className='text-red-600' />
+        </div>
+        <div className=''>
 
         </div>
 
