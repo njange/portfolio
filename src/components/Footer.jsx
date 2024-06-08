@@ -9,6 +9,7 @@ const Footer = () => {
         <h3></h3>
 
       </div>
+      <p className='text-gray-400'>@2024 James Njange</p>
     </div>
   )
 }
