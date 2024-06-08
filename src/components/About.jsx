@@ -16,7 +16,18 @@ import {
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className='max-w-[1000px] mx-auto p-6 grid md:grid-cols-2 gap-8 place-items-center' id='about'>
+      <div className='p-6'>
+        <h2 className='text-gray-200 text-3xl font-bold mb-4'>Skills</h2>
+        <p className='text-gray-300 mb-4'>
+          I am a full stack developer with experience in the following technologies:
+        </p>
+        <div className='md:flex flex-wrap gap-4 text-4xl justify-center'>
+
+        </div>
+
+      </div>
+    </div>
   )
 }
 
