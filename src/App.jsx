@@ -12,8 +12,9 @@ function App() {
       <Navbar />
       <Hero />
       <Portfolio />
-      <Contact />
       <About />
+      <Contact />
+      
       <Footer />
     </>
   )

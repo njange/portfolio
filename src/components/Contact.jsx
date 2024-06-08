@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div
-      className="px-6 max-w-[1000px] mx-auto grid md:grid-cols-2 place-items-center"
+      className="mt-24 px-6 max-w-[1000px] mx-auto grid md:grid-cols-2 place-items-center"
       id="contact"
     >
       <div>
