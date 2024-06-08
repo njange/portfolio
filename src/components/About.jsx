@@ -34,11 +34,18 @@ const About = () => {
           <DiGit className='text-red-400' />
           <DiNpm className='text-red-600' />
         </div>
-
+        </div>
         <div className='relative group'>
-          <div className='w-full h-full absolute -inset-1 bg-gradient-to-r from-purple-100 to-orange-900 rounded-lg'></div>
+          <div className='w-full h-full absolute -inset-1 bg-gradient-to-r from-purple-700 to-orange-900 rounded-lg'></div>
           <div className='relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>
-            <img src={project2} alt='project 2' className='rounded-lg md:max-w-[500px]'/>
+            <img src={project2} alt='project 2' className='rounded-lg md:max-w-[300px]'/>
+          </div>
+
+        </div>
+        <div className='relative group'>
+          <div className='w-full h-full absolute -inset-1 bg-gradient-to-r from-purple-700 to-orange-900 rounded-lg'></div>
+          <div className='relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>
+            <img src={project3} alt='project 3' className='rounded-lg md:max-w-[300px]'/>
           </div>
 
         </div>
@@ -52,7 +59,7 @@ const About = () => {
           </p>
         </div>
 
-      </div>
+      
     </div>
   )
 }
