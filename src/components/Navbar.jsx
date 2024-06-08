@@ -14,13 +14,13 @@ const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li className="p-5">
-          <Link to="/about">About</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className="p-5">
-          <Link to="/about">Experience</Link>
+          <Link to="/expirience">Experience</Link>
         </li>
         <li className="p-5">
-          <Link to="/about" className="px-4 py-2 rounded-xl bg-primary-color">
+          <Link to="/contact" className="px-4 py-2 rounded-xl bg-primary-color">
             Contact
           </Link>
         </li>
@@ -34,13 +34,13 @@ const Navbar = () => {
                 <h1 className="text-3xl font-bold m-4">JAMES</h1>
         <ul className="p-8 text-2xl">
         <li className="p-5">
-          <Link to="/about">About</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className="p-5">
-          <Link to="/about">Experience</Link>
+          <Link to="/experience">Experience</Link>
         </li>
         <li className="p-5">
-          <Link to="/about" className="px-4 py-2 rounded-xl bg-primary-color">
+          <Link to="/contact" className="px-4 py-2 rounded-xl bg-primary-color">
             Contact
           </Link>
         </li>
