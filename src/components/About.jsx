@@ -34,8 +34,13 @@ const About = () => {
           <DiGit className='text-red-400' />
           <DiNpm className='text-red-600' />
         </div>
-        <div className=''>
+        <div className='p-6'>
+          <h2 className='text-gray-200 text-3xl font-bold mb-4'>Frontend Experience</h2>
+          <p className='text-gray-300 mb-4'>
+            I have experience in building responsive websites using HTML, CSS, JavaScript, React, and
+            SASS.
 
+          </p>
         </div>
 
       </div>
