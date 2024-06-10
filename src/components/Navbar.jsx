@@ -7,6 +7,11 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
+
+  };
+
+  const closeMenu = () => {
+    setNav(false);
   };
   return (
     <div className="text-gray-200 max-w-[1200px] h-24 mx-auto flex justify-between items-center text-lg px-4 md:px-0">
@@ -14,7 +19,7 @@ const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li className="p-5">
-          <Link smooth={true} offset={50} duration={500} to="portfolio">Portfolio</Link>
+          <Link smooth={true} offset={50} duration={500}  to="portfolio">Portfolio</Link>
         </li>
         <li className="p-5">
           <Link smooth={true} offset={50} duration={500} to="about">Experience</Link>
@@ -34,13 +39,13 @@ const Navbar = () => {
                 <h1 className="text-3xl font-bold m-4">JAMES</h1>
         <ul className="p-8 text-2xl">
         <li className="p-5">
-          <Link smooth={true} offset={50} duration={500} to="portfolio">Portfolio</Link>
+          <Link smooth={true} offset={50} duration={500} onClick={closeMenu} to="portfolio">Portfolio</Link>
         </li>
         <li className="p-5">
-          <Link smooth={true} offset={50} duration={500} to="about">Experience</Link>
+          <Link smooth={true} offset={50} duration={500} onClick={closeMenu} to="about">Experience</Link>
         </li>
         <li className="p-5">
-          <Link smooth={true} offset={50} duration={500} to="contact" className="px-4 py-2 rounded-xl bg-primary-color">
+          <Link smooth={true} offset={50} duration={500} onClick={closeMenu} to="contact" className="px-4 py-2 rounded-xl bg-primary-color">
             Contact
           </Link>
         </li>
