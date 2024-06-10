@@ -35,7 +35,7 @@ const About = () => {
           <DiNpm className='text-red-600' />
         </div>
         </div>
-        <div className='relative group max-w-[600px]'>
+        <div className='relative group order-2 md:order-1max-w-[600px]'>
           <div className='w-full h-full absolute -inset-1 bg-gradient-to-r from-purple-700 to-orange-900 rounded-lg
                             blur opacity-25 group-hover:opacity-100 transition duration-300'></div>
           <div className='relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>
@@ -43,7 +43,7 @@ const About = () => {
           </div>
 
         </div>
-        <div className='relative group'>
+        <div className='relative group order-2 md:order-1'>
           <div className='w-full h-full absolute -inset-1 bg-gradient-to-r from-purple-700 to-orange-900 rounded-lg
                           blur opacity-25 group-hover:opacity-100 transition duration-300'></div>
           <div className='relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>

@@ -19,19 +19,19 @@ const Contact = () => {
           </p>
         </div>
         <div className="flex mt-10 items-center gap-7">
-          <div className="bg-[#171717]/40 p-5 rounded-lg ">
+          <div className="bg-[#252525] p-5 rounded-lg ">
             <h3 className="2xl md:text-4xl font-semibold text-gray-200">
               11 <span>+</span>
             </h3>
             <p className="text-xs md:text-base text-gray-200">Projects</p>
           </div>
-          <div className="bg-[#171717]/40 p-5 rounded-lg ">
+          <div className="bg-[#252525] p-5 rounded-lg ">
             <h3 className="2xl md:text-4xl font-semibold text-gray-200">
               2 <span>+</span>
             </h3>
             <p className="text-xs md:text-base text-gray-200">Years Experience</p>
           </div>
-          <div className="bg-[#171717]/40 p-5 rounded-lg ">
+          <div className="bg-[#252525] p-5 rounded-lg ">
             <h3 className="2xl md:text-4xl font-semibold text-gray-200">
               20 <span>+</span>
             </h3>

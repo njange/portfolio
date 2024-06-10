@@ -21,7 +21,7 @@ const Hero = () => {
             <img className="w-[800px]" src={profilepic} alt='profilepic' />
 
             <div className="my-auto ml-8 flex-col text-gray-200">
-                <p className="text-2xl md:text-4xl font-bold"> Hello, I'm James<br/>
+                <p className="text-xl md:text-4xl font-bold"> Hello, I'm James<br/>
                     <TypeAnimation
                         sequence={[
                             "Frontend Developer",
@@ -56,9 +56,9 @@ const Hero = () => {
                 </div>
             </div>
             <div className='text-6xl gap-4 flex justify-center items-center glass text-gray-600'>
-                <AiFillGithub/>
-                <AiFillLinkedin/>
-                <AiFillTwitterSquare/>
+                <a href="https://github.com/njange" className="hover:scale-110 transition-transform duration-300"><AiFillGithub/></a>
+                <a href="https://www.linkedin.com/in/james-njange-72845b258/" className="hover:scale-110 transition-transform duration-300"><AiFillLinkedin/></a>
+                <a href="https://x.com/Njange2" className="hover:scale-110 transition-transform duration-300"><AiFillTwitterSquare/></a>
 
             </div>
 

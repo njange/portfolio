@@ -45,7 +45,7 @@ const Portfolio = () => {
     <div className='h-[90vh] my-6 max-6 max-w-[1200px] mx-auto grid grid-cols-8 gap-6' id='portfolio'>
         <div className='relative z-10 col-span-3 grid place-items-center grid-cols-1'>
             <p className='text-gray-200 font-bold text-4xl skew-y-6'>Select Project</p>
-            <img src={arrow} className='absolute w-[50px] top-10 right-12'></img>
+            <img src={arrow} className='absolute w-[50px] top-10 right-0 md:right-12'></img>
 
             <ul className='ml-6 flex flex-row md:flex-col gap-6 flex-wrap justify-center md:gap-1 space-y-2 md:space-y-4 text-2xl'>
 
@@ -70,7 +70,7 @@ const Portfolio = () => {
                     <a href={projects[currentProject].link.site}
                         className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate transition duration-300'>View Site</a>
                     <a href={projects[currentProject].link.github}
-                        className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300'><AiFillGithub></AiFillGithub></a>
+                        className='text-2xl px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300'><AiFillGithub></AiFillGithub></a>
                 </div>
 
             </div>
