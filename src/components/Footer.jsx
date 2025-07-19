@@ -13,7 +13,7 @@ const Footer = () => {
           <FaTwitter />
         </div>
       </div>
-      <p className='text-gray-400'>@2024 James Njange</p>
+      <p className='text-gray-400'>@2025 James Njange</p>
     </div>
   )
 }
