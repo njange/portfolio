@@ -26,11 +26,11 @@ const Hero = () => {
                 <p className="text-lg md:text-xl lg:text-4xl font-bold mb-2"> Hello, I'm James<br/>
                     <TypeAnimation
                         sequence={[
-                            "Frontend Developer",
+                            "DevOps Engineer",
                             1000,
                             "Backend Developer",
                             1000,
-                            "Fullstack Developer",
+                            "Cloud Architect",
                             1000,
                         ]}
                         wrapper="span"
