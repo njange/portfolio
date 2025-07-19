@@ -25,6 +25,9 @@ const Navbar = () => {
           <Link smooth={true} offset={50} duration={500} to="about">Experience</Link>
         </li>
         <li className="p-5">
+          <Link smooth={true} offset={50} duration={500} to="blog">Blog</Link>
+        </li>
+        <li className="p-5">
           <Link smooth={true} offset={50} duration={500} to="contact" className="px-4 py-2 rounded-xl bg-primary-color">
             Contact
           </Link>
@@ -43,6 +46,9 @@ const Navbar = () => {
         </li>
         <li className="p-5">
           <Link smooth={true} offset={50} duration={500} onClick={closeMenu} to="about">Experience</Link>
+        </li>
+        <li className="p-5">
+          <Link smooth={true} offset={50} duration={500} onClick={closeMenu} to="blog">Blog</Link>
         </li>
         <li className="p-5">
           <Link smooth={true} offset={50} duration={500} onClick={closeMenu} to="contact" className="px-4 py-2 rounded-xl bg-primary-color">
