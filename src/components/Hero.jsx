@@ -14,7 +14,7 @@ import {
 } from 'react-icons/di'
 import { 
     SiKubernetes,
-    SiAmazonaws,
+    SiAmazonwebservices,
     SiTerraform,
     SiJenkins,
     SiExpress,
@@ -64,7 +64,7 @@ const Hero = () => {
                     <SiDjango size={40} className='text-green-600 md:w-[50px] md:h-[50px]' />
                     <DiDocker size={40} className='text-blue-500 md:w-[50px] md:h-[50px]' />
                     <SiKubernetes size={40} className='text-blue-600 md:w-[50px] md:h-[50px]' />
-                    <SiAmazonaws size={40} className='text-orange-500 md:w-[50px] md:h-[50px]' />
+                    <SiAmazonwebservices size={40} className='text-orange-500 md:w-[50px] md:h-[50px]' />
                     <SiTerraform size={40} className='text-purple-500 md:w-[50px] md:h-[50px]' />
                     <SiJenkins size={40} className='text-red-500 md:w-[50px] md:h-[50px]' />
                     <DiPostgresql size={40} className='text-blue-400 md:w-[50px] md:h-[50px]' />
