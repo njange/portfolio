@@ -4,13 +4,23 @@ import { AiFillLinkedin, AiFillGithub, AiFillTwitterSquare } from 'react-icons/a
 import { TypeAnimation } from 'react-type-animation'
 import {
     DiJavascript1,
-    DiReact,
     DiNodejsSmall,
-    DiHtml5,
-    DiCss3,
-    DiSass,
-    DiBootstrap
+    DiPython,
+    DiDocker,
+    DiGit,
+    DiLinux,
+    DiPostgresql,
+    DiMongodb
 } from 'react-icons/di'
+import { 
+    SiKubernetes,
+    SiAmazonaws,
+    SiTerraform,
+    SiJenkins,
+    SiExpress,
+    SiDjango,
+    SiRedis
+} from 'react-icons/si'
 
 const Hero = () => {
   return (
@@ -47,13 +57,18 @@ const Hero = () => {
             <div className='text-5xl p-6 md:p-12 glass'>
                 <p className='text-gray-200 text-lg md:text-xl font-bold mb-4 text-center'>My Tech Stack</p>
                 <div className='grid grid-cols-3 md:grid-cols-4 gap-2 md:gap-4 justify-items-center'>
-                    <DiHtml5 size={40} className='text-red-500 md:w-[50px] md:h-[50px]' />
-                    <DiCss3 size={40} className='text-blue-500 md:w-[50px] md:h-[50px]' />
                     <DiJavascript1 size={40} className='text-yellow-500 md:w-[50px] md:h-[50px]' />
-                    <DiReact size={40} className='text-blue-300 md:w-[50px] md:h-[50px]' />
                     <DiNodejsSmall size={40} className='text-green-500 md:w-[50px] md:h-[50px]' />
-                    <DiSass size={40} className='text-pink-500 md:w-[50px] md:h-[50px]' />
-                    <DiBootstrap size={40} className='text-purple-500 md:w-[50px] md:h-[50px]' />
+                    <SiExpress size={40} className='text-gray-300 md:w-[50px] md:h-[50px]' />
+                    <DiPython size={40} className='text-blue-400 md:w-[50px] md:h-[50px]' />
+                    <SiDjango size={40} className='text-green-600 md:w-[50px] md:h-[50px]' />
+                    <DiDocker size={40} className='text-blue-500 md:w-[50px] md:h-[50px]' />
+                    <SiKubernetes size={40} className='text-blue-600 md:w-[50px] md:h-[50px]' />
+                    <SiAmazonaws size={40} className='text-orange-500 md:w-[50px] md:h-[50px]' />
+                    <SiTerraform size={40} className='text-purple-500 md:w-[50px] md:h-[50px]' />
+                    <SiJenkins size={40} className='text-red-500 md:w-[50px] md:h-[50px]' />
+                    <DiPostgresql size={40} className='text-blue-400 md:w-[50px] md:h-[50px]' />
+                    <SiRedis size={40} className='text-red-600 md:w-[50px] md:h-[50px]' />
 
                 </div>
             </div>
