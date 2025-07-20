@@ -1,11 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { HiCalendar, HiClock, HiArrowRight } from 'react-icons/hi';
 
 const BlogCard = ({ post }) => {
+  const navigate = useNavigate();
+
   const handleReadMore = () => {
-    // For now, we'll just scroll to top. Later you can implement routing to individual post pages
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    console.log(`Navigate to: /blog/${post.slug}`);
+    // Navigate to individual blog post page (you can implement this later)
+    navigate(`/blog/${post.slug}`);
   };
 
   const formatDate = (dateString) => {

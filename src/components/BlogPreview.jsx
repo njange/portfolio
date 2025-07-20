@@ -1,17 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { getFeaturedPosts } from '../data/blogPosts';
 import BlogCard from './BlogCard';
 import { HiArrowRight } from 'react-icons/hi';
 
 const BlogPreview = () => {
   const featuredPosts = getFeaturedPosts(3);
+  const navigate = useNavigate();
 
   const handleViewAllBlogs = () => {
-    // Scroll to blog section or navigate to blog page
-    const blogSection = document.getElementById('blog');
-    if (blogSection) {
-      blogSection.scrollIntoView({ behavior: 'smooth' });
-    }
+    navigate('/blog');
   };
 
   return (
