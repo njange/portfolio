@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <div className="text-gray-200 max-w-[1200px] h-24 mx-auto flex justify-between items-center text-lg px-4 md:px-0 fixed top-0 left-0 right-0 z-50 bg-[#151515]/90 backdrop-blur-sm">
-      <RouterLink to="/" className="text-3xl font-bold m-4">JAMES</RouterLink>
+      <RouterLink to="/" className="text-3xl font-bold m-4">James Njange</RouterLink>
 
       <ul className="hidden md:flex">
         <li className="p-5">
